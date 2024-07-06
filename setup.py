@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="krx_holidays",
-    version="0.0.2",
+    version="0.0.3",
     license='MIT',
     author="cheddars",
     author_email="nezahrish@gmail.com",
