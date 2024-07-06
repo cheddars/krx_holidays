@@ -38,3 +38,8 @@ class TestHoliday(unittest.TestCase):
         self.assertEqual(dinfo["desc"], "평일")
         self.assertEqual(dinfo["week_name"], "월요일")
         self.assertFalse(dinfo["is_holiday"])
+
+        dinfo = get_day_info(datetime(2024, 5, 6))
+        self.assertEqual(dinfo["desc"], "어린이날(대체휴일)")
+        self.assertEqual(dinfo["week_name"], "월요일")
+        self.assertTrue(dinfo["is_holiday"])
