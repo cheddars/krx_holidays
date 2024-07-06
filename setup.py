@@ -7,7 +7,7 @@ setuptools.setup(
     author="cheddars",
     author_email="nezahrish@gmail.com",
     description="KRX Holidays",
-    long_description=open('README.md').read(),
+    long_description=open('README.rst').read(),
     url="https://github.com/cheddars/krx_holidays",
     packages=setuptools.find_packages(),
     classifiers=[
