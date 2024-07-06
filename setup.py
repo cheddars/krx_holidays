@@ -3,6 +3,10 @@ import setuptools
 setuptools.setup(
     name="krx_holidays",
     version="0.0.3",
+    install_requires=[
+        'pandas',
+        'xlrd'
+    ],
     license='MIT',
     author="cheddars",
     author_email="nezahrish@gmail.com",
